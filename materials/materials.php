@@ -6,7 +6,7 @@ Module Name: Materials
 Description: Standard materials records.
 Version: 1.0.0
 Requires at least: 2.3.*
-Author: Prizm
+Author: Khalid Battran - Prizm
 Author URI: 
 */
 
