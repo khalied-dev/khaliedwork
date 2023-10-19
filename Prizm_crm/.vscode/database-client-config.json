@@ -1,0 +1,28 @@
+{
+    "$schema": "https://dbclient-release.oss-cn-hongkong.aliyuncs.com/dbclient/schema.json",
+    "database": {
+        "1696384633854": {
+            "host": "127.0.0.1",
+            "port": 3306,
+            "user": "root",
+            "dbType": "MySQL",
+            "name": "host",
+            "timezone": "+00:00",
+            "usingSSH": false,
+            "useSocksProxy": false,
+            "global": false,
+            "savePassword": "Forever",
+            "hideSystemSchema": true,
+            "readonly": false,
+            "sort": 11,
+            "useSSL": false,
+            "encrypt": true,
+            "authType": "default",
+            "esAuth": "none",
+            "showHidden": true,
+            "srv": false,
+            "key": "1696384633854",
+            "connectionKey": "database.connections"
+        }
+    }
+}

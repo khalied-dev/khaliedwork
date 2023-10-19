@@ -1,0 +1,7 @@
+Task : Add Task Activity log to each Task
+
+To complete this task i have followed folliwng steps
+
+1- first i have created table create_task_log_table, the new model Task_Activity_Log_model.php then i have created new function
+AddTaskLog in Task controller to add each action's log in newly created table.
+

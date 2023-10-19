@@ -1,0 +1,24 @@
+﻿Task : Create Senior Manager & Manager Fields in Projects. MUST NOT ALLOW MULTI SELECT.
+
+To complete this task i have followed folliwng steps
+
+1- First i have created 2 fields projectseniormanager and projectmanager in tblprojects of our database
+
+2- Both fields are integer type and foreign keys of tblstaff where they are pointing staffid
+
+3- I have created two Html input fields in application/views/admin/projects/project.php and HTML fields name are projectseniormanager and projectmanager
+
+4- As we know Application/controller/admin/Projects.php is handling project dataflow
+
+5- In application/models/Projects_model.php i have received these two values projectseniormanager and projectmanager in add($data) function
+and then inserted in database
+
+6- I have also created two functions  getSeniorProjectManager($id='') and getProjectManager($id='') in   application/models/Projects_model.php 
+
+7- At This position both add and update projects worked very well
+
+8- To show latest created  fields projectseniormanager and projectmanager i have fetched managers detail in view function of Projects.php controller (Application/controller/admin/Projects.php) and passed it to the admin/projects/View.php 
+
+9- Then in admin/projects/View.php they loaded admin/projects/project_overview to show project detail and managers detail
+
+10- i have added translation keywords in application/language/english/english_lang.php for this task

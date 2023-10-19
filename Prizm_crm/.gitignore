@@ -1,0 +1,7 @@
+application\config\app-config.php
+.\modules\oldpurchase\
+.\modules\przbudget\vendor\
+.\system.zip
+.\application\logs\
+application/logs
+application\logs\
